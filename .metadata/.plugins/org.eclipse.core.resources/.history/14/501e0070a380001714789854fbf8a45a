@@ -1,0 +1,45 @@
+package com.variables.java;
+
+ class StaticVariableTest {
+	 /*
+	  * Static variable is at class level, so it is also called class variable
+	  * When a variable is declared as static, all the objects of its class share the same static variable
+	  */
+
+	 static int a = 10;   //Static variable should be assigned at class level
+	 int b ;
+ }
+ 
+ public class StaticVariableTest {
+	 
+	 public static void main(String args[]){
+		 
+		 StaticVariableTest s1 = new StaticVariableTest(); //Created 3 objects for class StaticExample
+		 StaticVariableTest s2 = new StaticVariableTest();
+		 StaticVariableTest s3 = new StaticVariableTest();
+		 
+		 s1.b = 20;
+		 s2.b = 30;
+		 s3.b = 40;
+		 
+		 System.out.println("Inital static value of 'a' for object s1 :: "+s1.a);
+		 System.out.println("Inital static value of 'a' for object s2 :: "+s2.a);
+		 System.out.println("Inital static value of 'a' for object s3 :: "+s3.a);
+		 System.out.println();
+		 
+		 System.out.println("b value of object s1 :: "+s1.b );
+		 System.out.println("b value of object s1 :: "+s2.b );
+		 System.out.println("b value of object s1 :: "+s3.b );
+		 System.out.println();
+		 
+		 s1.a = 90; // since 'a' is static, all the objects share the same value which is now 90
+		 
+		 System.out.println("Changing static variable a value to 90 --> s1.a = 90");
+		 System.out.println();
+		 
+		 System.out.println("Modified staic value of 'a' for object s1 :: "+s1.a);
+		 System.out.println("Modified staic value of 'a' for object s2 :: "+s2.a);
+		 System.out.println("Modified staic value of 'a' for object s3 :: "+s3.a);
+	 }
+	 
+}

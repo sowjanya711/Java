@@ -1,0 +1,15 @@
+package com.basics.java;
+
+ class Student {
+	int id;
+	String name;
+}
+
+ class School {
+	
+	 public static void main (String args[]){
+		 Student s = new Student();
+		 s.id = 101;
+		 s.name = 'Sowjanya';
+	 }
+}

@@ -1,0 +1,21 @@
+package com.polymorphism.java;
+/*
+ * The ability of an object to take many forms is known as Polymorphism.
+ * It can be achieved by method overloading and method over riding
+ */
+
+/*
+ * Method Overloading : Two or more methods having same name but different parameters
+ * By changing number of arguments
+ * By changing the data type
+ */
+
+class Additon{
+	int add(int a, int b){
+		int c = a + b;
+		return c ;
+	}
+}
+public class MethodOverloading {
+
+}

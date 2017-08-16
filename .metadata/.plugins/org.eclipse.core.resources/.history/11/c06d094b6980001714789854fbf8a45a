@@ -1,0 +1,12 @@
+package com.basics.java;
+
+class Students {
+	int id;
+	String name;
+}
+
+public class Student1 {
+	public static void main(){
+		
+	}
+}

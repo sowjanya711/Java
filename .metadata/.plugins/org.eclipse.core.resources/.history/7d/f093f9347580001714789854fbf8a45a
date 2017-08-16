@@ -1,0 +1,23 @@
+package com.inheritance.java;
+
+class Animals{
+	void Eats(){
+		System.out.println("Animals are Eating");
+	}
+}
+
+class Dogs extends Animals {
+	void Barks(){
+		System.out.println("Dogs are Barking");
+	}
+}
+
+class BabyDog extends Dogs{
+	
+}
+
+class MultilevelInheritance {
+	public static void main(String args[]){
+		
+	}
+}

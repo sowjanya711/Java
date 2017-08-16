@@ -1,0 +1,27 @@
+package com.inheritance.java;
+
+class Animals1{
+	void Eats1(){
+		System.out.println("Animals are Eating");
+	}
+}
+
+class Dogs1 extends Animals1 {
+	void Barks1(){
+		System.out.println("Dogs are Barking");
+	}
+}
+
+class BabyDog1 extends Animals1{
+	void puppy1(){
+		System.out.println("Puppies are cute");
+	}
+}
+
+class HierarichalInheritance {
+	public static void main(String args[]){
+		
+	Barks1 b = new Barks1();
+	
+	}
+}

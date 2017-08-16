@@ -1,0 +1,9 @@
+package com.basics.java;
+
+ class Student {
+	Student s = new Student();
+}
+
+ class Student1 {
+	
+}

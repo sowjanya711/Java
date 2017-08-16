@@ -1,0 +1,16 @@
+package com.inheritance.java;
+
+
+class Animal {
+	
+}
+
+class Bark extends Animal {
+	
+}
+
+class SingleInheritance {
+	public static void main(String args[]){
+		
+	}
+}

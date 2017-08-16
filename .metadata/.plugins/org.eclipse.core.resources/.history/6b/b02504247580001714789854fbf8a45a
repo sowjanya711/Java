@@ -1,0 +1,19 @@
+package com.inheritance.java;
+
+class Animals{
+	
+}
+
+class Dogs extends Animals {
+	
+}
+
+class BabyDog extends Dogs{
+	
+}
+
+class MultilevelInheritance {
+	public static void main(String args[]){
+		
+	}
+}

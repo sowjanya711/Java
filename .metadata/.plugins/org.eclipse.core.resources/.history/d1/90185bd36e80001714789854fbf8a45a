@@ -1,0 +1,11 @@
+package com.constructor.java;
+
+public class Student2 {
+
+	Student2(){
+		
+	}
+	public static void main (String args[]){
+		Student2 s = new Student2();
+	}
+}

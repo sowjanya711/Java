@@ -1,0 +1,19 @@
+package com.constructor.java;
+
+class Example1 {
+
+	Example1(){
+		String name;
+	}
+	
+}
+
+public class Example {
+	
+	public static void main (String args[]){
+		Example e = new Example();
+		e.name = "Constructor Name";
+	}
+	
+	
+}

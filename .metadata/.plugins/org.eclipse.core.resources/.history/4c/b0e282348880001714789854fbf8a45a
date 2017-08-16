@@ -1,0 +1,8 @@
+package com.statik.java;
+
+ class StaticExample {
+
+	 public static void main(String args[]){
+		 
+	 }
+}

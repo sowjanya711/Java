@@ -1,0 +1,29 @@
+package com.basics.java;
+
+class Students {
+	int id;
+	String name;
+	
+	void insertRecord(int studentId, String studentName){
+		studentId = id;
+		studentName = name;
+	}
+	
+	void display(){
+		System.out.println("");
+	}
+}
+
+
+public class Student1 {
+	public static void main(){
+		
+		Students s1 = new Students ();
+		Students s2 = new Students ();
+		
+		s1.insertRecord(101, "Sowjanya");
+		s2.insertRecord(102, "Satya");
+		
+		
+	}
+}

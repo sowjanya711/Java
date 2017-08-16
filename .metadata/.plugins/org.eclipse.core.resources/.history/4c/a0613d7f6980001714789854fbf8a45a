@@ -1,0 +1,17 @@
+package com.basics.java;
+
+class Students {
+	int id;
+	String name;
+	
+	void insertRecord(int studentId, String studentName){
+		studentId = id;
+		studentName = name;
+	}
+}
+
+public class Student1 {
+	public static void main(){
+		
+	}
+}

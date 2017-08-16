@@ -1,0 +1,16 @@
+package com.statik.java;
+
+ class StaticExample {
+
+	 static int a = 10;  //Static variable is at class level
+	 int b = 20;
+	 
+	 public static void main(String args[]){
+		 
+		 StaticExample s1 = new StaticExample();
+		 StaticExample s2 = new StaticExample();
+		 StaticExample s3 = new StaticExample();
+		 
+		 System.out.println("");
+	 }
+}

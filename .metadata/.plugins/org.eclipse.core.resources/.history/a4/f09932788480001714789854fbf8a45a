@@ -1,0 +1,8 @@
+package com.polymorphism.java;
+/*
+ * The ability of an object to take many forms is known as Polymorphism.
+ * It can be achieved by method overloading and method over riding
+ */
+public class PolyExample {
+
+}

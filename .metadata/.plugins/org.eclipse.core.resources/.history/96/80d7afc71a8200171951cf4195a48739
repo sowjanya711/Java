@@ -1,0 +1,20 @@
+package com.abstractionAndInterface.java;
+
+interface printable2
+{  
+	void print();  
+}  
+
+class InterfaceExample2 implements printable{  
+	public void print()
+	{
+		System.out.println("Hello");
+	}  
+}
+
+class InterfaceExample3 extends InterfaceExample2{
+	public static void main(String args[]){  
+		InterfaceExample obj = new InterfaceExample();  
+		obj.print();  
+	}  
+}  

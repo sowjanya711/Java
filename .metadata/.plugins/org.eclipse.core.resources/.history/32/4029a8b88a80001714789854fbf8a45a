@@ -1,0 +1,32 @@
+package com.statik.java;
+
+ class StaticVariable {
+	 /*
+	  * Static variable is at class level, so it is also called class variable
+	  * When a variable is declared as static, all the objects of its class share the same static variable
+	  */
+
+	 static int a = 10;   //Static variable should be assigned at class level
+	 int b ;
+	 
+	 public static void main(String args[]){
+		 
+		 StaticVariable s1 = new StaticVariable(); //Created 3 objects for class StaticExample
+		 StaticVariable s2 = new StaticVariable();
+		 StaticVariable s3 = new StaticVariable();
+		 
+		 s1.b = 20;
+		 s2.b = 30;
+		 s3.b = 40;
+		 
+		 System.out.println("Inital staic value of s1.a "+s1.a);
+		 System.out.println("Inital staic value of s2.a "+s2.a);
+		 System.out.println("Inital staic value of s3.a "+s3.a);
+		 
+		 s1.a = 90; //If the value of 'a' is changed to 90, since 'a' is static
+		 System.out.println(s1.a);
+		 System.out.println(s2.a);
+		 System.out.println(s3.a);
+	 }
+	 
+}

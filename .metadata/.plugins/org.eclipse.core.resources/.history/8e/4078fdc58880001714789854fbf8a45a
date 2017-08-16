@@ -1,0 +1,22 @@
+package com.statik.java;
+
+ class StaticExample {
+	 /*
+	  * Static variable is at class level
+	  * i.e. For all the objects in class, the static variable is assigned by default
+	  */
+
+	 static int a = 10;  
+	 int b = 20;
+	 
+	 public static void main(String args[]){
+		 
+		 StaticExample s1 = new StaticExample(); //Created 3 objects for class StaticExample
+		 StaticExample s2 = new StaticExample();
+		 StaticExample s3 = new StaticExample();
+		 
+		 System.out.println(s1.a);
+		 System.out.println(s2.a);
+		 System.out.println(s3.a);
+	 }
+}

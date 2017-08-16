@@ -1,0 +1,11 @@
+package com.abstraction.java;
+
+/*
+ * Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+ * Ways to achieve:
+ * 1. Abstract Class
+ * 2. Interface
+ */
+public class AbstractExample {
+
+}

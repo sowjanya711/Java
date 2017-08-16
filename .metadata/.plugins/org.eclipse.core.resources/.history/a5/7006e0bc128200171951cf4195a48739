@@ -1,0 +1,11 @@
+package com.polymorphism.java;
+
+/*
+  Let's say there are 2 classes. When a method in child class has the same method name and type signature
+  as method in its super class, then the method in the sub class is said to be override the method in the 
+  super class
+ */
+
+public class MethodOverRiding {
+
+}

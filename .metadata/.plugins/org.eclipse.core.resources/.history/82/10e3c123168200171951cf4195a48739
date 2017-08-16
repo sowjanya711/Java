@@ -1,0 +1,17 @@
+package com.abstraction.java;
+
+/*
+ * Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+ * Ways to achieve:
+ * 1. Abstract Class
+ * 2. Interface
+ */
+
+/*
+ * A class that is declared as Abstract is an abstract class
+ * Class needs to be extended, its method needs to be implemented.
+ * It cannot be instantiated.
+ */
+public class AbstractExample {
+
+}

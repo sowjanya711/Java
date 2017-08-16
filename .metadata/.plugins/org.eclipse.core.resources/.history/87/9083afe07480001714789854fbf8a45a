@@ -1,0 +1,19 @@
+package com.inheritance.java;
+
+class A{
+	
+}
+
+class B extends A {
+	
+}
+
+class C extends B{
+	
+}
+
+class MultilevelInheritance {
+	public static void main(String args[]){
+		
+	}
+}

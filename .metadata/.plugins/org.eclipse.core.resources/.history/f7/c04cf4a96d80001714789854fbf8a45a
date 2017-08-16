@@ -1,0 +1,12 @@
+package com.constructor.java;
+
+public class Example {
+
+	public static void main (String args[]){
+		
+	}
+	
+	Example(){
+		Example e = new Example();
+	}
+}

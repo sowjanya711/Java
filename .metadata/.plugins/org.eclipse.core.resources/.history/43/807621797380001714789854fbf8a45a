@@ -1,0 +1,24 @@
+package com.inheritance.java;
+/*
+	Aquiring the properties of a parent class is called inheritance
+	class can be inherited using "extends" key word
+	Method overriding can be achieved using inheritance
+*/
+
+ class Employee {
+
+	 float salary = 4000;
+}
+ 
+ class Programmer extends Employee {
+	 
+	 public static void main (String args[]){
+		 
+		 int bonus = 1000;
+		 
+		 Programmer p = new Programmer();
+		 System.out.println("Salary ::: " +p.salary);
+		 System.out.println("Bonus :::" +p.bonus);
+		 
+	 }
+ }
