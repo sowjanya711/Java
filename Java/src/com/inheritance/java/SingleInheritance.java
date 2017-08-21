@@ -1,3 +1,9 @@
+/*
+	Acquiring the properties of a parent class is called inheritance
+	class can be inherited using "extends" key word
+	Method overriding can be achieved using inheritance
+*/
+
 package com.inheritance.java;
 
 class Animal {

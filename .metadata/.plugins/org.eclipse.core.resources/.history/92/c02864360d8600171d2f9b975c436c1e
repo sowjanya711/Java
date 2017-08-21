@@ -1,0 +1,21 @@
+/*
+ * In java, string is an object that represents a sequence of characters.
+ * Two ways of creating string object
+ * 1. By string literal e.g: String s = "Welcome"
+ * 2. By new keyword    e.g: String s = new String ("Welcome")
+ */
+
+package com.string.java;
+
+class welcome {
+	String s1 = "Java";
+	char a[] = {'a','b','c','d','e'};
+
+}
+
+public class StringExample {
+	public static void main(String args[]){
+		welcome w = new welcome();
+		
+	}
+}
