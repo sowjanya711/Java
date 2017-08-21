@@ -1,5 +1,6 @@
 /*
  * In java, string is an object that represents a sequence of characters.
+ * Java string is immutable, i.e. it cannot be changed
  * Two ways of creating string object
  * 1. By string literal e.g: String s = "Welcome"
  * 2. By new keyword    e.g: String s = new String ("Welcome")
