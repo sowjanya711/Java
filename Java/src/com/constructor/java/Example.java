@@ -9,6 +9,8 @@ package com.constructor.java;
 	
 	public static void main (String args[]){
 		Example e = new Example();	
+		
+		// e.Example();   --> This is not needed, because constructor is called immediately when the object is created
 	}
 }
   
