@@ -101,3 +101,4 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:142) ~[maven-core-3.0.4.jar:3.0.4]
 	... 9 common frames omitted
 2017-08-20 19:55:45,656 [Worker-1] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo.maven.apache.org/maven2
+2017-12-23 19:26:32,823 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
