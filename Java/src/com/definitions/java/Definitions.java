@@ -54,7 +54,7 @@ Interface :
 	 	be changed by the implementing class.
 	•	The variables must also be initialized with a constant value. i.e value should be assigned.
 	
- Definiton:
+ Definition:
 ----------	 
 	1.	Interface is a blueprint of class, there can be only abstract methods in instance
 	2.	It is used to achieve abstraction and multiple inheritance in Java. 
@@ -77,5 +77,78 @@ Array : It is a collection of similar type of elements that have a memory locati
 		 ------
  dataType arr[];  --> declaration
  new dataType[size] --> Instantiation
+
+Object Class:
+------------
+
+The Object class is parent class of all the classes in java by default. 
+The Object class is beneficial if you want to refer any object whose type you don't know
+
+Collections:
+-----------
+
+Collection Framework provides architecture for storing and manipulating group of objects. It has
+	1. Interfaces and its implementations (Classes)
+	2. Algorithm
+	
+	 Collections <interface>
+	 1. Set <interface> --> HashSet (class), Linked HashSet (class), TreeSet - Sorted (class)
+	 2. List <interface> --> ArrayList (class), LinkedList (class), Vector (class)
+	 3. Map <interface> --> HashMap (class), LinkedHashMap (class), Hashtable (class), TreeMap - Sorted (class)
+	 
+	Iterator / ListIterator :
+	-----------------------	 
+	
+	Both iterator and list iterator are both used to iterate through the elements in the collections class.
+	 1. Iterator (One direction - forward)
+	 2. ListIterator (both directions - backward and forward)
+	 
+	 Comparable and Comparator Interfaces :
+	 ------------------------------------
+	 
+	 These interfaces are used for sorting objects of user defined class.
+
+List Collection : 
+---------------
+ List is an Ordered Collection
+	 	* List may contain duplicate elements
+	 	* List may include null
+	 	* List can grow or shrink dynamically
+
+Syntax for Creation of ArrayList :
+--------------------------------
+
+ArrayList<datatype> al = new ArrayList<datatype>();
+
+e.g. : ArrayList<String> al = new ArrayList<String>();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 */
