@@ -52,7 +52,20 @@ public class ArrayListMethods {
 		
 		System.out.println("Element at index 0 in the current Array List ::: " +elem +"\n");
 		
-				
+		/* Copying elements from one Array List to other Array List */
+		
+		ArrayList<String> al2 = new ArrayList<String>();
+		
+		al2.addAll(al);
+		System.out.println("Elements in ArrayList after copying from Array List 1 ::: " +al2);
+		
+		/*Checking existence of an element*/
+		
+		if(al2.contains("Sowjanya")){
+			System.out.println("\nArray List2 contains element Sowjanya");
+		}else {
+			System.out.println("\nArray List2 doesn\'t contain element Sowjanya");
+		}	
 		
 	}
 
