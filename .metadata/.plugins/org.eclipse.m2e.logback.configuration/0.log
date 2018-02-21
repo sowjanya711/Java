@@ -102,3 +102,7 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 	... 9 common frames omitted
 2017-08-20 19:55:45,656 [Worker-1] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo.maven.apache.org/maven2
 2017-12-23 19:26:32,823 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-12-28 20:16:23,002 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-01-07 17:05:33,014 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-02-20 18:42:34,694 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-02-20 18:53:54,661 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
